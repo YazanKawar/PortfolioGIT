@@ -12,7 +12,6 @@ body {
 .section {
     padding: 1em;
     margin-bottom: 2em;
-    background-color: #111;
 }
 
 .brand {
@@ -48,6 +47,7 @@ body {
 
 .arrow{
     width: 30px;
+    opacity: .75;
 }
 
 .imagecontainer {
@@ -82,7 +82,7 @@ body {
 }
 
 span {
-    color: #e21e79;
+    color: #16D4FF;
     font-weight: 400;
     font-style: italic;
 }
@@ -98,7 +98,7 @@ span {
 
 .profilepicture {
     border-radius: 50%;
-    border: 1px solid black;
+    border: 2px solid #999;
     width: 50%;
     max-width: 200px;
 }
@@ -112,20 +112,26 @@ span {
     margin-bottom: 3em;
 }
 
-h2 {
+h1,h2, h3 {
     font-weight: 100;
+}
+h1,h3{
+    color: #16D4FF;
+}
+
+h2{
+    color: #888;
 }
 
 h4 {
+    color: #666;
     font-weight: 400;
 }
 
 h3 {
     font-style: italic;
     font-size: 1.3em;
-    font-weight: 100;
 }
-
 
 
 .line {
@@ -148,4 +154,8 @@ li {
     font-weight: 100;
     list-style: none;
     color: #999;
+}
+
+.navbar {
+    background-color: #111;
 }
