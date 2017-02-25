@@ -165,7 +165,7 @@ li {
 }
 
 .colorBox {
-    height: 15em;
+    min-height: 13em;
     padding: 2em;
     background: #16d4ff;
 }
@@ -186,5 +186,10 @@ li {
 
 .top3Container {
     margin: -60px auto;
-    max-width: 1000px;
+    max-width: 1024px;
+}
+
+.imageContainerRows {
+    max-width: 1500px;
+    margin: auto;
 }
