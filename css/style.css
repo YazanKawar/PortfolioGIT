@@ -10,6 +10,7 @@ body {
 }
 
 .section {
+    background: black;
     padding: 1em;
     margin-bottom: 2em;
 }
@@ -100,10 +101,14 @@ span {
 }
 
 .profilepicture {
+    transition: all 1000ms ease;
     border-radius: 50%;
-    border: 2px solid #999;
+    border: 1px solid #16d4ff;
     width: 50%;
     max-width: 200px;
+}
+.profilepicture:hover{
+    border: 1px solid #eee;
 }
 
 .profileImgHolder {
@@ -192,4 +197,9 @@ li {
 .imageContainerRows {
     max-width: 1500px;
     margin: auto;
+}
+
+#myname {
+    font-family: 'Calligraffitti', cursive;
+
 }
